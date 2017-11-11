@@ -17,7 +17,15 @@ public class TestingMain {
         System.out.println("Test - pierwszy test jednostkowy:");
 
         Calculator calculator = new Calculator();
-        System.out.println(calculator.addAToB(50, 25));
-        System.out.println(calculator.substractAFromB(180, 90));
+        if(calculator.addAToB(50, 10) == 60) {
+            System.out.println("OK");
+        } else {
+            System.out.println("Error!");
+        }
+        if(calculator.substractAFromB(50, 10) == 40) {
+            System.out.println("OK");
+        } else {
+            System.out.println("Error!");
+        }
     }
 }
