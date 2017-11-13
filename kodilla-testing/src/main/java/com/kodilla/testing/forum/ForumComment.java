@@ -10,6 +10,7 @@ public class ForumComment {
         this.commentBody = commentBody;
         this.author = author;
     }
+
     public ForumPost getForumPost() {
         return forumPost;
     }
@@ -21,6 +22,7 @@ public class ForumComment {
     public String getAuthor() {
         return author;
     }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -32,6 +34,7 @@ public class ForumComment {
         if (!commentBody.equals(that.commentBody)) return false;
         return author.equals(that.author);
     }
+
     @Override
     public int hashCode() {
         int result = forumPost.hashCode();

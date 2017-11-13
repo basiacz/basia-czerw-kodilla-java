@@ -16,6 +16,7 @@ public class ForumPost {
     public String getAuthor() {
         return author;
     }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -26,6 +27,7 @@ public class ForumPost {
         if (!postBody.equals(forumPost.postBody)) return false;
         return author.equals(forumPost.author);
     }
+
     @Override
     public int hashCode() {
         int result = postBody.hashCode();
