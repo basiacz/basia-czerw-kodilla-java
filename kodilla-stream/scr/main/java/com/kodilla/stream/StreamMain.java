@@ -16,19 +16,10 @@ public class StreamMain {
         System.out.println(poemBeautifier.beautify("text", String::toUpperCase));
 
         Forum theForum = new Forum();
-        theForum.getUserList().stream()
-                .filter(u -> u.getSex() == 'M')
-                .forEach(u -> System.out.println(u.getSex()));
-
-        theForum.getUserList().stream()
-                .filter(f -> f.getBirthDate().getYear() > 1997)
-                . forEach(f -> System.out.println(f.getBirthDate()));
-
-        theForum.getUserList().stream()
-                .filter(s -> s.getPostsNumber() > 1 )
-                . forEach(s -> System.out.println(s.getPostsNumber()));
-
         Map<Integer, ForumUser> theResultMapOfUsers = theForum.getUserList().stream()
+                .filter(u -> u.getSex() == 'M')
+                .filter(f -> f.getBirthDate().getYear() < 1997)
+                .filter(s -> s.getPostsNumber() >= 1 )
                 .filter(user -> user.getID() == user.getID())
                 .collect(Collectors.toMap(ForumUser::getID, user -> user));
 
