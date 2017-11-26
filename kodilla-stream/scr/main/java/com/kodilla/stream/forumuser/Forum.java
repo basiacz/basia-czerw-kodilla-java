@@ -3,7 +3,7 @@ package com.kodilla.stream.forumuser;
 import java.util.*;
 
 public final class Forum {
-    private static final List<ForumUser> userList = new ArrayList<>();
+    private final List<ForumUser> userList = new ArrayList<>();
 
     public Forum() {
 
@@ -20,7 +20,7 @@ public final class Forum {
         userList.add(new ForumUser(6, "HalinaK", 'F', 1989,6,
                 18, 10));
     }
-    public static List<ForumUser> getUserList() {
+    public List<ForumUser> getUserList() {
         return new ArrayList<>(userList);
     }
 }
