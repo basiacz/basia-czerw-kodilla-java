@@ -13,6 +13,7 @@ import com.kodilla.stream.reference.FunctionalCalculator;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 public class StreamMain {
     public static void main(String[] args) {
