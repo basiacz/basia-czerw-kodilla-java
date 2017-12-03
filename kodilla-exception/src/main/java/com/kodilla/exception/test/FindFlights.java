@@ -1,6 +1,5 @@
 package com.kodilla.exception.test;
 
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -16,7 +15,7 @@ public class FindFlights {
             airport.put("OMDB", false);
 
             List<Boolean> resultList = airport.entrySet().stream()
-                    .filter(e -> e.getKey().getArrivalAirport().equals(flight.getArrivalAirport())
+                    .filter(e -> e.getKey().equals(flight.getArrivalAirport()) )
                             .map(f -> f.getValue())
                             .collect(Collectors.toList());
             if (resultList.size() > 0) {

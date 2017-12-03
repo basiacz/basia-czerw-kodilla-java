@@ -1,18 +1,16 @@
 package com.kodilla.exception.test;
 
-import java.util.Map;
-
 public class FindFlightRunner {
     public static void main(String[] args) {
-        Flight flight  = null;
+        Flight flight  = new Flight("KATL", "OTHR");
 
         FindFlights findFlights = new FindFlights();
 
         try {
-            flight.getArrivalAirport();
+            System.out.println(findFlights.findFlight(flight));
         } catch (RouteNotFoundException e) {
             System.out.println(e);
         }
-        System.out.println("Processing other logic!");
+        System.out.println("OK");
     }
 }
