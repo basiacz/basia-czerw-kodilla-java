@@ -3,8 +3,6 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../kodilla-stream">
-      <sourceFolder url="file://$MODULE_DIR$/../../kodilla-stream/scr/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../kodilla-stream/scr/test/java" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/../../kodilla-stream/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../kodilla-stream/build" />
       <excludeFolder url="file://$MODULE_DIR$/../../kodilla-stream/out" />
