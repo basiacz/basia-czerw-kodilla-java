@@ -14,6 +14,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-good-patterns.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-good-patterns.iml" group="kodilla-good-patterns" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-good-patterns/kodilla-good-patterns_main.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-good-patterns/kodilla-good-patterns_main.iml" group="kodilla-good-patterns" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-good-patterns/kodilla-good-patterns_test.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-good-patterns/kodilla-good-patterns_test.iml" group="kodilla-good-patterns" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-patterns.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-patterns.iml" group="kodilla-patterns" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-patterns/kodilla-patterns_main.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-patterns/kodilla-patterns_main.iml" group="kodilla-patterns" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-patterns/kodilla-patterns_test.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-patterns/kodilla-patterns_test.iml" group="kodilla-patterns" />
       <module fileurl="file://$PROJECT_DIR$/kodilla-spring/kodilla-spring.iml" filepath="$PROJECT_DIR$/kodilla-spring/kodilla-spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-spring-intro.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-spring-intro.iml" group="kodilla-spring-intro" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-spring-intro/kodilla-spring-intro_main.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-spring-intro/kodilla-spring-intro_main.iml" group="kodilla-spring-intro" />
