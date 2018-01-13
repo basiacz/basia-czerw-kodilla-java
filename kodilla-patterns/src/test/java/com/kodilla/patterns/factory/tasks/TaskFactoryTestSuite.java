@@ -10,8 +10,12 @@ public class TaskFactoryTestSuite {
 
         //when
         Task result = TaskFactory.createTask(TaskFactory.DRIVING);
+        Task result2 = TaskFactory.createTask(TaskFactory.PAINTING);
+        Task result3 = TaskFactory.createTask(TaskFactory.SHOPPING);
 
         //Then
-        Assert.assertEquals("ss",result.getTaskName());
+        Assert.assertEquals("driving home",result.getTaskName());
+        Assert.assertEquals("paint a room",result2.getTaskName());
+        Assert.assertEquals("grocery",result3.getTaskName());
     }
 }

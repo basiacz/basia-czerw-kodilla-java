@@ -7,9 +7,9 @@ public final class TaskFactory {
 
     public static Task createTask(String kindOfTask) {
         switch (kindOfTask) {
-            case SHOPPING: return new ShoppingTask("xx", "xx", 2);
-            case PAINTING: return new PaintingTask("yy", "yy","yy");
-            case DRIVING: return new DrivingTask("ss", "ss", "ss");
+            case SHOPPING: return new ShoppingTask("grocery", "oranges", 2);
+            case PAINTING: return new PaintingTask("paint a room", "blue","living room");
+            case DRIVING: return new DrivingTask("driving home", "home", "car");
             default: return null;
         }
     }
