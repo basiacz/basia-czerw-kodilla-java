@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.kodilla.testing.forum.statistics.ForumStatTestSuite" tests="7" skipped="0" failures="0" errors="0" timestamp="2017-11-23T18:22:20" hostname="Basia" time="0.033">
+<testsuite name="com.kodilla.testing.forum.statistics.ForumStatTestSuite" tests="7" skipped="0" failures="0" errors="0" timestamp="2018-01-12T20:40:05" hostname="DESKTOP-LNJ5I96" time="0.025">
   <properties/>
-  <testcase name="testCalculateStatisticsPosts0" classname="com.kodilla.testing.forum.statistics.ForumStatTestSuite" time="0.014"/>
-  <testcase name="testCalculateStatisticsUsers0" classname="com.kodilla.testing.forum.statistics.ForumStatTestSuite" time="0.002"/>
+  <testcase name="testCalculateStatisticsPosts0" classname="com.kodilla.testing.forum.statistics.ForumStatTestSuite" time="0.015"/>
+  <testcase name="testCalculateStatisticsUsers0" classname="com.kodilla.testing.forum.statistics.ForumStatTestSuite" time="0.001"/>
   <testcase name="testCalculateStatisticsComments0" classname="com.kodilla.testing.forum.statistics.ForumStatTestSuite" time="0.002"/>
-  <testcase name="testCalculateStatisticsUsers100" classname="com.kodilla.testing.forum.statistics.ForumStatTestSuite" time="0.002"/>
+  <testcase name="testCalculateStatisticsUsers100" classname="com.kodilla.testing.forum.statistics.ForumStatTestSuite" time="0.003"/>
   <testcase name="testCalculateStatisticsPostsGraterThanComments" classname="com.kodilla.testing.forum.statistics.ForumStatTestSuite" time="0.001"/>
-  <testcase name="testCalculateStatisticsCommentsGraterThanPosts" classname="com.kodilla.testing.forum.statistics.ForumStatTestSuite" time="0.002"/>
-  <testcase name="testCalculateStatisticsPosts1000" classname="com.kodilla.testing.forum.statistics.ForumStatTestSuite" time="0.002"/>
+  <testcase name="testCalculateStatisticsCommentsGraterThanPosts" classname="com.kodilla.testing.forum.statistics.ForumStatTestSuite" time="0.0"/>
+  <testcase name="testCalculateStatisticsPosts1000" classname="com.kodilla.testing.forum.statistics.ForumStatTestSuite" time="0.001"/>
   <system-out><![CDATA[ForumStat{usersCount=0, postsCount=0, commentsCount=0, postsPerUser=0.0, commentsPerUser=0.0, commentsPerPost=0.0}
 ForumStat{usersCount=0, postsCount=0, commentsCount=0, postsPerUser=0.0, commentsPerUser=0.0, commentsPerPost=0.0}
 ForumStat{usersCount=0, postsCount=0, commentsCount=0, postsPerUser=0.0, commentsPerUser=0.0, commentsPerPost=0.0}

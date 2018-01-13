@@ -12,8 +12,18 @@ public class PaintingTask implements Task {
     }
 
     @Override
+    public String executeTask() {
+        return "executed: painted as " + color;
+    }
+
+    @Override
     public String getTaskName() {
         return taskName;
+    }
+
+    @Override
+    public boolean isTaskExecuted() {
+        return false;
     }
 
     public String getColor() {

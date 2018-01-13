@@ -12,8 +12,18 @@ public class DrivingTask implements Task {
     }
 
     @Override
+    public String executeTask() {
+        return "executed: drove to " + where;
+    }
+
+    @Override
     public String getTaskName() {
         return taskName;
+    }
+
+    @Override
+    public boolean isTaskExecuted() {
+        return false;
     }
 
     public String getWhere() {

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.kodilla.testing.collection.CollectionTestSuite" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-11-23T18:22:20" hostname="Basia" time="0.011">
+<testsuite name="com.kodilla.testing.collection.CollectionTestSuite" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-01-12T20:40:04" hostname="DESKTOP-LNJ5I96" time="0.004">
   <properties/>
-  <testcase name="testCaseOddNumbersExterminatorEmpty" classname="com.kodilla.testing.collection.CollectionTestSuite" time="0.009"/>
+  <testcase name="testCaseOddNumbersExterminatorEmpty" classname="com.kodilla.testing.collection.CollectionTestSuite" time="0.003"/>
   <testcase name="testCaseOddNumbersExterminatorEven" classname="com.kodilla.testing.collection.CollectionTestSuite" time="0.001"/>
   <system-out><![CDATA[Test Suite: begin
 Test Case: begin

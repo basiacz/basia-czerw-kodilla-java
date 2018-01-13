@@ -12,8 +12,18 @@ public class ShoppingTask implements Task {
     }
 
     @Override
+    public String executeTask() {
+        return "executed: bought " + whatToBuy;
+    }
+
+    @Override
     public String getTaskName() {
         return taskName;
+    }
+
+    @Override
+    public boolean isTaskExecuted() {
+        return false;
     }
 
     public String getWhatToBuy() {
