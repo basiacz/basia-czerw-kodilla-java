@@ -3,8 +3,9 @@ package com.kodilla.hibernate.task;
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import java.util.Date;
+
 @Entity
-@Table(name="TASKS")
+@Table (name = "TASKS")
 public class Task {
     private int id;
     private String description;
@@ -13,28 +14,33 @@ public class Task {
 
     public Task(String description, int duration) {
         this.description = description;
+        this.created = new Date();
         this.duration = duration;
     }
 
     public Task() {
     }
+
     @Id
     @GeneratedValue
     @NotNull
-    @Column(name="ID", unique = true)
+    @Column (name = "ID", unique = true)
     public int getId() {
         return id;
     }
-    @Column(name="DESCRIPTION")
-    @NotNull
+
+    @Column (name = "DESCRIPTION")
     public String getDescription() {
         return description;
     }
-    @Column(name="CREATED")
+
+    @NotNull
+    @Column (name = "CREATED")
     public Date getCreated() {
         return created;
     }
-    @Column(name="DURATION")
+
+    @Column (name = "DURATION")
     public int getDuration() {
         return duration;
     }
