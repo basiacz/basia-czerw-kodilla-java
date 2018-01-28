@@ -1,7 +1,9 @@
 package com.kodilla.sudoku.game;
 
 import com.kodilla.sudoku.game.board.Board;
+import com.kodilla.sudoku.game.resolve.ResolveBoard;
 
+import java.util.List;
 import java.util.Scanner;
 
 public class SudokuGame {
@@ -29,6 +31,32 @@ public class SudokuGame {
     }
 
     public void resolveSudoku() {
-
+        ResolveBoard rb = new ResolveBoard();
+        //delete from occupied fields
+        for (int row = 0; row < 9; row++) {
+            for (int col = 0; col < 9; col++) {
+                if (board.getValue(row, col) != Board.EMPTY) {
+                    rb.getRows().get(row).getValues().get(col).clear();
+                }
+            }
+        }
+        //delete form columns and rows
+        for (int row = 0; row < 9; row++) {
+            for (int col = 0; col < 9; col++) {
+                if (board.getValue(row, col) == Board.EMPTY) {
+                    for (int n = 0; n < 9; n++) {
+                        int value = board.getValue(row, n);
+                        if (value != Board.EMPTY) {
+                            rb.getRows().get(row).getValues().get(col).remove(value);
+                        }
+                        value = board.getValue(n, col);
+                        if (value != Board.EMPTY) {
+                            rb.getRows().get(row).getValues().get(col).remove(value);
+                        }
+                    }
+                }
+            }
+        }
+        //todo: wpisac wartosci, ktore maja tylko jedna mozliwosc
     }
 }
