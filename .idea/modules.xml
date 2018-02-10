@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/basia-java.iml" filepath="$PROJECT_DIR$/.idea/modules/basia-java.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/basia-java_main.iml" filepath="$PROJECT_DIR$/.idea/modules/basia-java_main.iml" group="basia-java" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/basia-java_test.iml" filepath="$PROJECT_DIR$/.idea/modules/basia-java_test.iml" group="basia-java" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-sudoku/kodilla-course.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-sudoku/kodilla-course.iml" group="kodilla-course" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-exception/kodilla-exception.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-exception/kodilla-exception.iml" group="kodilla-exception" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-exception/kodilla-exception_main.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-exception/kodilla-exception_main.iml" group="kodilla-exception" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-exception/kodilla-exception_test.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-exception/kodilla-exception_test.iml" group="kodilla-exception" />
@@ -33,6 +34,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-stream/kodilla-stream_main.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-stream/kodilla-stream_main.iml" group="kodilla-stream" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-stream/kodilla-stream_test.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-stream/kodilla-stream_test.iml" group="kodilla-stream" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-sudo/kodilla-sudo.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-sudo/kodilla-sudo.iml" group="kodilla-sudo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-sudoku/kodilla-sudoku.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-sudoku/kodilla-sudoku.iml" group="kodilla-sudoku" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-sudoku2.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-sudoku2.iml" group="kodilla-sudoku2" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-sudoku2/kodilla-sudoku2_main.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-sudoku2/kodilla-sudoku2_main.iml" group="kodilla-sudoku2" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-sudoku2/kodilla-sudoku2_test.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-sudoku2/kodilla-sudoku2_test.iml" group="kodilla-sudoku2" />
