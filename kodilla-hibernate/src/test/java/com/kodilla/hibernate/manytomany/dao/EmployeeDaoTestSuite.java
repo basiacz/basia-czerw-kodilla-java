@@ -11,14 +11,16 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.List;
 
-@RunWith(SpringRunner.class)
 @SpringBootTest
-public class CompanyDaoTestSuite {
+@RunWith(SpringRunner.class)
+public class EmployeeDaoTestSuite {
     @Autowired
-    CompanyDao companyDao;
+    private EmployeeDao employeeDao;
+    @Autowired
+    private CompanyDao companyDao;
 
     @Test
-    public void testSaveManyToMany(){
+    public void testSearchByLastName() {
         //Given
         Employee johnSmith = new Employee("John", "Smith");
         Employee stephanieClarckson = new Employee("Stephanie", "Clarckson");
@@ -48,18 +50,9 @@ public class CompanyDaoTestSuite {
         int greyMatterId = greyMatter.getId();
 
         //When
-        List<Company> result = companyDao.searchByName("sof%");
+        List<Employee> result = employeeDao.searchByLastName("Kovalsky");
 
         //Then
-        Assert.assertEquals(7, result.size());
-
-        //CleanUp
-        try {
-            companyDao.delete(softwareMachineId);
-            companyDao.delete(dataMaestersId);
-            companyDao.delete(greyMatterId);
-        } catch (Exception e) {
-            //do nothing
-        }
+        Assert.assertEquals(5, result.size());
     }
 }

@@ -25,6 +25,24 @@ public class TaskListDaoTestSuite {
     private static final String LISTNAME = "ToDo List";
 
     @Test
+    public void testFindByListName() {
+        //Given
+        TaskList taskList = new TaskList(LISTNAME, "To do something list");
+        taskListDao.save(taskList);
+        String listName = taskList.getListName();
+
+        //When
+        List<TaskList> readTaskList = taskListDao.findByListName(listName);
+
+        //Then
+        Assert.assertEquals(3, readTaskList.size());
+
+//        //CleanUp
+        int id = readTaskList.get(0).getId();
+        taskListDao.delete(id);
+    }
+
+    @Test
     public void testTaskListDaoSave() {
         //Given
         TaskList taskList = new TaskList(LISTNAME, "ToDo List");

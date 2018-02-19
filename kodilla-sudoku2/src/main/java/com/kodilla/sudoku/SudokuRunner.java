@@ -7,6 +7,8 @@ public class SudokuRunner {
     public static void main(String[] args) {
         SudokuGame sudokuGame = new SudokuGame();
         sudokuGame.enterUserValues();
-        sudokuGame.resolveSudoku();
+        if (sudokuGame.resolveSudoku()) {
+            System.out.println(sudokuGame.getBoard());
+        }
     }
 }

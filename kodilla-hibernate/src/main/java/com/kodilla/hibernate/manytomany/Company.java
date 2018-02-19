@@ -5,6 +5,9 @@ import javax.validation.constraints.NotNull;
 import java.util.ArrayList;
 import java.util.List;
 
+@NamedQuery(name = "Company.searchByName",
+        query = "from Company where name like :NAME")
+
 @Entity
 @Table(name = "COMPANIES")
 public class Company {
@@ -33,8 +36,8 @@ public class Company {
         return name;
     }
 
-    @ManyToMany(cascade = CascadeType.ALL, mappedBy = "companies")
-    public List<Employee> getEmployees(){
+    @ManyToMany (cascade = CascadeType.ALL, mappedBy = "companies")
+    public List<Employee> getEmployees() {
         return employees;
     }
 
@@ -46,7 +49,7 @@ public class Company {
         this.name = name;
     }
 
-    private void setEmployees(List<Employee> employees) {
+    public void setEmployees(List<Employee> employees) {
         this.employees = employees;
     }
 }
