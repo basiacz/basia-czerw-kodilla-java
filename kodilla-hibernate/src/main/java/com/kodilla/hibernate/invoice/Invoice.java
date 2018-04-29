@@ -1,7 +1,7 @@
 package com.kodilla.hibernate.invoice;
 
-import com.sun.istack.internal.NotNull;
 
+import javax.validation.constraints.NotNull;
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
